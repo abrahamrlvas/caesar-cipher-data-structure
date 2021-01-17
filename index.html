@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Cifrado de CESAR - Abraham Rivas</title>
+</head>
+<body>
+<div class="container">
+
+    <nav class="header">
+        <h1>Cifrado de CESAR - Abraham Rivas</h1>
+    </nav>
+
+    <div class="sections">
+        <section class="field">
+            <div class="arc">
+                <p>Numero de saltos en el alfabeto<p>
+            <form action="" id="nav">
+                <input type="number" placeholder="Saltos" id="num">
+                <button class="btn-nav" id="btn-nav">Limpiar caja</button>
+            </form>
+            </div>
+            <div class="arch">
+                <p>Descarga el archivo encriptado en formato TXT</p>
+                <button class="download btn-nav" id="btn-download">Descargar</button>
+            </div>
+     </section>
+     <hr>
+
+     <section class="encrypt">
+        <p>Ingresa texto a encriptar</p>
+        <form action="" id="form">
+        <textarea value="" cols="40" rows="10" id="scripts"></textarea>
+        <button id="btn-txt" value="Descargar TXT" class="btn-send">Encriptar</button>
+
+        </form> 
+        <p class="result" id="results"></p>
+    </section>
+    <hr>
+    <section class="encrypt">
+        <p>Ingresa texto a desencriptar</p>
+        <form action="" id="form-d">
+        <textarea value="" cols="30" rows="10" id="scripts-d"></textarea>
+        <button id="btn-txt-d" value="Descargar TXT">Desencriptar</button>
+        <p class="result-d" id="result-d"></p>
+        </form>
+    </section>
+    </div>
+    <footer class="footer">
+        <img src="./img/avatar.webp" alt="" class="img">
+        <div class="data">
+            <h3>Estudiante:</h3>
+            <p>Abraham Jose Rivas Ferrer</p>
+            <p>V-30189861</p>
+            <h3>Materia:</h3>
+            <p>Estructura de Datos</p>
+            <h3>Prof:</h3>
+            <p>Roberto di Michele</p>
+        </div>  
+    </footer>
+</div> 
+
+    <script src="app.js"></script>
+</body>
+</html>

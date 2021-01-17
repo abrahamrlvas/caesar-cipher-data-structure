@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(25, 58, 58, 0.8);
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    margin: 0 20px;
+    color: white;
+}
+
+.sections{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.field p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.field input{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.field button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 25px;
+    background: rgba(11, 175, 175, 0.8);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none
+}
+
+.field{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arch{
+    text-align: center;
+}
+
+.encrypt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.encrypt p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.encrypt  textarea{
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    color: rgb(65, 63, 63);
+    outline: none;
+}
+
+.encrypt button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: rgb(223, 135, 4);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.result{
+    margin-top: 20px;
+}
+
+.result-d{
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 245px;
+    background-color: rgba(25, 58, 58, 0.8);
+    color: white;
+}
+
+.img{
+    margin-right: 30px;
+    margin-top: 5px;
+    width: 15%;
+    height: 240px;
+}
+
+.btn-nav:hover{
+    background-color: rgb(128, 203, 204);
+}
+
+.encrypt button:hover{
+    background-color: rgb(221, 188, 42);
+}
